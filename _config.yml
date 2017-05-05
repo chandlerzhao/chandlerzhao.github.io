@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+title: Chandler Zhao 's Blog
+description: Where Chandler keeps track of his learning paths.
+show_downloads: true
+google_analytics:
+theme: 
