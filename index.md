@@ -12,7 +12,7 @@ layout: default
 </ul>
 
 
-jekyll站点时间：{{site.time}}
+jekyll站点时间：{{site.time | date: "%c"}}
 页面时间：{{page.date | date: "%c" }}
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
