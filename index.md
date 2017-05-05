@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{{ site.github.url }}
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
