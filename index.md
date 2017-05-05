@@ -10,8 +10,10 @@ layout: default
   </li>
 {% endfor %}
 </ul>
+
+
 jekyll站点时间：{{site.time}}
-页面时间：{{page.date}}
+页面时间：{{page.date | date: "%c" }}
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
