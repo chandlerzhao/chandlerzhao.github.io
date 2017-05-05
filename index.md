@@ -10,7 +10,7 @@ layout: default
   </li>
 {% endfor %}
 </ul>
-
+jekyll站点时间：{{site.time}}
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
