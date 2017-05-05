@@ -5,15 +5,14 @@ layout: default
 {% for post in site.posts %}
   <li>
     <a href="{{ post.url }}">
-      <h2>{{ post.title }}</h2>
+      <h2>{{ post.title }} - {{ post.date | date : "%F"}}</h2>
     </a>
   </li>
 {% endfor %}
 </ul>
 
 
-jekyll站点时间：{{site.time | date: "%c"}}
-页面时间：{{page.date | date: "%c" }}
+jekyll命令运行时间：{{site.time | date: "%F %T"}}
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
