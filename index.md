@@ -11,6 +11,8 @@ layout: default
 {% endfor %}
 </ul>
 jekyll站点时间：{{site.time}}
+页面时间：{{page.date}}
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
