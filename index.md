@@ -1,8 +1,16 @@
 ---
 layout: default
 ---
-{{ site.github.url }}
-aaaaa
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">
+      <h2>{{ post.title }}</h2>
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
