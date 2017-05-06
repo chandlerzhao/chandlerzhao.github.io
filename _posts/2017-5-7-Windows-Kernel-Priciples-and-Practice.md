@@ -58,3 +58,19 @@ RAW、FAT、NTFS的实现
 编译、运行与调试WRK
 
 ## 
+可信计算(Trustworthy Computing)  
+从Windows Server 2003 和 Windows XP 开始引入64位版本  
+
+下一代：Windows Server 2008、Windows Vista  
+Windows Server 2008 不再的区分单处理器和多处理器版本
+从此开始NTFS文件系统不用重新启动即可自我修复
+
+下一代：Windows Server 2008 R2、Windows 7（与Windows Vista 完全兼容、注重性能提升、XPmode）
+Windows Server 2008 R2 支持 64个物理处理器或256个逻辑处理器。
+
+Windows XP - NT5.1
+Windows XP SP2 /64位版本- NT5.2 (->WRK)
+Windows Vista /SP1 - NT 6.0
+Windows 7 - NT 6.1
+
+WRK 可被编译成为一个EXE，替换到一个NT5.2系统中
