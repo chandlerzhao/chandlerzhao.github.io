@@ -20,9 +20,9 @@ bash: httpd: command not found...
 一般来说，相同的文件.tar.bz2比.tar.gz体积要小，网速慢的话会带来一些好处。
 
 与此相关还要下载三个依赖包：
-> **Apache Portable Runtime - 1.5.2**  
-> **Apache Portable Runtime Utility - 1.5.4**  
-> **PCRE**
+> **1. Apache Portable Runtime - 1.5.2**  
+> **2. Apache Portable Runtime Utility - 1.5.4**  
+> **3. PCRE**
 
 下载地址：[http://apr.apache.org/download.cgi](http://apr.apache.org/download.cgi)
 
