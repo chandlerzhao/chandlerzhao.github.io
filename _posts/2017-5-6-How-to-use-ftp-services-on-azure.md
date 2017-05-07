@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 如何在Windows Azure上部署FTP服务
+title: 如何在Windows Azure上使用FTP服务
 ---
 
-# 如何在Windows Azure上部署FTP服务
+# 如何在Windows Azure上使用FTP服务
 
 最近做项目需要把项目部署到公有云上面去（其实是有一千多块的Azure的优惠券可以使用，不用白不用），传文件就成了一个问题。
 我使用的是Windows Server 2008虚拟机，为了避免在centos上无法使用forever将nodejs服务器驻留至后台，nohup命令也不是那么好用，故改用Windows Server 2008，相比2012更简单一些。
