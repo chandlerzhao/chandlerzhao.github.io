@@ -21,5 +21,6 @@ HTTP日志记录、日志记录工具、请求筛选、静态内容压缩、IIS�
 本地策略，安全选项，设置“网络访问：本地账户的共享和安全模式”为经典模式  
 参考：[MSDN:从网络访问此计算机](https://support.microsoft.com/zh-cn/help/823659/client,-service,-and-program-issues-can-occur-if-you-change-security-settings-and-user-rights-assignments)  
 [如何处理iis ftp有权限用户不能登录问题](http://blog.sina.com.cn/s/blog_436d85c101000by4.html)
+
 6. 配置高级安全Windows防火墙，开放入站21，出站20，入站出站5000-5001TCP端口
 7. 配置VM的endpoint，同上
