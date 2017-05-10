@@ -4,6 +4,8 @@ title: OpenGL学习笔记
 ---
 # OpenGL学习笔记
 参考书：《计算机图形学（OpenGL版）（第三版）》，清华大学出版社  
+GPU Gems 1 (GPU精粹1)
+GPU Gems 2 (GPU精粹2)
 GPU Gems 3 (GPU精粹3)，清华大学出版社  
 OpenGL Programming Guide  
 
